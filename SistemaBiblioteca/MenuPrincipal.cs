@@ -51,8 +51,9 @@ namespace SistemaBiblioteca
         private void btnConsultaUsuario_Click(object sender, EventArgs e)
         {
             FormConsultaUsuario form = new FormConsultaUsuario();
-            form.ShowDialog(); // Abre a nova tela de forma modal
+            form.ShowDialog();  // Abre a tela de forma modal
         }
+
 
         private void btnTesteConexao_Click(object sender, EventArgs e)
         {
